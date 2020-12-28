@@ -1,0 +1,15 @@
+@font-face {
+  font-family: adobeClean;
+  src: url("../assets/AdobeClean/AdobeClean-Regular.ttf");
+}
+
+@font-face {
+  font-family: adobeCleanBold;
+  src: url("../assets/AdobeClean/AdobeClean-Bold.ttf");
+}
+
+@font-face {
+  font-family: adobeCleanLight;
+  src: url("../assets/AdobeClean/AdobeClean-Light.ttf");
+}
+/*# sourceMappingURL=font.css.map */
