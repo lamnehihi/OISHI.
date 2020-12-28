@@ -1,7 +1,7 @@
 .header {
   &__logo {
     h1 {
-      font-size: 30px;
+      font-size: 24px;
       font-weight: 800;
     }
 
@@ -14,14 +14,18 @@
 
   &__cart {
     background-color: #000;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 1.25rem 1.25rem 3.125rem 1.25rem;
 
-    -webkit-box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.17);
-    -moz-box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.17);
-    box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.27);
 
     cursor: pointer;
+
+    img {
+      height: 27px;
+    }
   }
 }

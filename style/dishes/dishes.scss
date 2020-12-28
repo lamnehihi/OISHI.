@@ -1,0 +1,46 @@
+.dishes {
+  position: relative;
+  padding-top: 5rem;
+
+  pagination {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .item {
+      background-color: #fff;
+      width: 1.5625rem;
+      border-radius: 9px;
+      height: 1.8125rem;
+      cursor: pointer;
+    }
+  }
+
+  &__item {
+    width: 14.375rem;
+    height: 19.375rem;
+    border-radius: 50px;
+
+    background: rgb(242, 246, 255);
+    background: linear-gradient(
+      135deg,
+      rgba(242, 246, 255, 1) 0%,
+      rgba(242, 246, 255, 1) 66%,
+      rgba(254, 254, 255, 1) 100%
+    );
+
+    -webkit-box-shadow: 10px 20px 30px 0px #00000015;
+    -moz-box-shadow: 10px 20px 30px 0px #00000015;
+    box-shadow: 10px 20px 30px 0px #00000015;
+
+    margin-bottom: 1rem;
+
+    &__img {
+      height: 10rem;
+    }
+  }
+
+  &__introduce {
+    width: 19.375rem;
+  }
+}

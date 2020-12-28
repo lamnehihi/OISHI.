@@ -16,6 +16,7 @@
     <link href="style/common/common.css" rel="stylesheet" />
     <link href="style/header/header.css" rel="stylesheet" />
     <link href="style/intro/intro.css" rel="stylesheet" />
+    <link href="style/dishes/dishes.css" rel="stylesheet" />
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -46,8 +47,11 @@
             <h1>Fresh Healthy Delicious Sushi</h1>
             <p>We made fresh and healthy sushi with different recipes</p>
           </div>
-          <div class="intro__hero__btn btn--menu">
-            <button type="button" class="btn btn-primary">View Menu</button>
+          <div
+            class="intro__hero__btn btn--menu d-flex justify-content-between align-items-center"
+          >
+            <span>View Menu</span>
+            <img src="./assets/imgs/right-arrow.svg" alt="right arrow" />
           </div>
         </div>
         <img src="./assets/imgs/IntroImg.png" alt="sushi." />
@@ -55,59 +59,62 @@
     </div>
 
     <div class="dishes">
-      <pagination>
-        <div>
-          <img src="./assets/imgs/prev.svg" alt="prev" />
-        </div>
+      <div class="container d-flex ">
+        <pagination class="d-flex">
+          <div class="item d-flex justify-content-center align-items-center mr-1">
+            <img src="./assets/imgs/prev.svg" alt="prev" />
+          </div>
 
-        <div>
-          <img src="./assets/imgs/next.svg" alt="next" />
-        </div>
-      </pagination>
+          <div class="item d-flex justify-content-center align-items-center">
+            <img src="./assets/imgs/next.svg" alt="next" />
+          </div>
+        </pagination>
 
-      <div class="dishes_item">
-        <img src="./assets/imgs/tikkaMaki.png" alt="tikkaMaki" />
-        <div class="item__text">
-          <h3>Tikka Maki</h3>
-          <p>Salmon Eggs</p>
-          <h3>$4.10</h3>
+        <div class="dishes__item">
+          <img class="dishes__item__img" src="./assets/imgs/tikkaMaki.png" alt="tikkaMaki" />
+          <div class="item__text">
+            <h3>Tikka Maki</h3>
+            <p>Salmon Eggs</p>
+            <h3>$4.10</h3>
+          </div>
+          <div class="add-btn">
+            <img src="./assets/imgs/plus.png" alt="plus" />
+          </div>
         </div>
-        <div class="add-btn">
-          <img src="./assets/imgs/plus.png" alt="plus" />
+        <div class="dishes__item">
+          <img class="dishes__item__img" src="./assets/imgs/nigiri.png" alt="nigiri" />
+          <div class="item__text">
+            <h3>Nigiri</h3>
+            <p>Shrimp Avocado</p>
+            <h3>$3.70</h3>
+          </div>
+          <div class="add-btn">
+            <img src="./assets/imgs/plus.png" alt="plus" />
+          </div>
         </div>
-      </div>
-      <div class="dishes_item">
-        <img src="./assets/imgs/nigiri.png" alt="tikkaMaki" />
-        <div class="item__text">
-          <h3>Nigiri</h3>
-          <p>Shrimp Avocado</p>
-          <h3>$3.70</h3>
+        <div class="dishes__item">
+          <img class="dishes__item__img" src="./assets/imgs/sasazushi.png" alt="sasazushi" />
+          <div class="item__text">
+            <h3>Sasazushi</h3>
+            <p>Tamago Eggs</p>
+            <h3>$4.50</h3>
+          </div>
+          <div class="add-btn">
+            <img src="./assets/imgs/plus.png" alt="plus" />
+          </div>
         </div>
-        <div class="add-btn">
-          <img src="./assets/imgs/plus.png" alt="plus" />
+        <div class="dishes__introduce">
+          <h2>
+            The best sushi restaurant for delectable sushi delights, sashimi &
+            more.
+          </h2>
+          <p>
+            Sushi Counter offers the most electric affair or shush infused
+            cuisine. Opt traditional with our rolls, tartare & platters, or try
+            our exclusive poke bowls, sushi counter street foods & sushi
+            squares.
+          </p>
         </div>
-      </div>
-      <div class="dishes_item">
-        <img src="./assets/imgs/tikkaMaki.png" alt="tikkaMaki" />
-        <div class="item__text">
-          <h3>Sasazushi</h3>
-          <p>Tamago Eggs</p>
-          <h3>$4.50</h3>
-        </div>
-        <div class="add-btn">
-          <img src="./assets/imgs/plus.png" alt="plus" />
-        </div>
-      </div>
-      <div class="dishIntroduce">
-        <h2>
-          The best sushi restaurant for delectable sushi delights, sashimi &
-          more.
-        </h2>
-        <p>
-          Sushi Counter offers the most electric affair or shush infused
-          cuisine. Opt traditional with our rolls, tartare & platters, or try
-          our exclusive poke bowls, sushi counter street foods & sushi squares.
-        </p>
       </div>
     </div>
 

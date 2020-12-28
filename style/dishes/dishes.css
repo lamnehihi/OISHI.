@@ -1,0 +1,38 @@
+.dishes {
+  position: relative;
+  padding-top: 5rem;
+}
+
+.dishes pagination {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dishes pagination .item {
+  background-color: #fff;
+  width: 1.5625rem;
+  border-radius: 9px;
+  height: 1.8125rem;
+  cursor: pointer;
+}
+
+.dishes__item {
+  width: 14.375rem;
+  height: 19.375rem;
+  border-radius: 50px;
+  background: #f2f6ff;
+  background: linear-gradient(135deg, #f2f6ff 0%, #f2f6ff 66%, #fefeff 100%);
+  -webkit-box-shadow: 10px 20px 30px 0px #00000015;
+  box-shadow: 10px 20px 30px 0px #00000015;
+  margin-bottom: 1rem;
+}
+
+.dishes__item__img {
+  height: 10rem;
+}
+
+.dishes__introduce {
+  width: 19.375rem;
+}
+/*# sourceMappingURL=dishes.css.map */
