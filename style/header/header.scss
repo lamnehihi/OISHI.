@@ -1,0 +1,27 @@
+.header {
+  &__logo {
+    h1 {
+      font-size: 30px;
+      font-weight: 800;
+    }
+
+    h2 {
+      font-size: 14px;
+      color: #9a9a9a;
+      font-family: adobeCleanLight;
+    }
+  }
+
+  &__cart {
+    background-color: #000;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 1.25rem 1.25rem 3.125rem 1.25rem;
+
+    -webkit-box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.17);
+    box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.17);
+
+    cursor: pointer;
+  }
+}

@@ -1,5 +1,11 @@
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 0;
+}
+
 h1 {
-  font-size: 3.75rem !important;
+  font-size: 3.25rem;
+  font-family: adobeCleanBold;
+  font-weight: 800;
 }
 
 * {

@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "header.scss"
+        "common.scss"
     ],
     "names": [],
-    "file": "header.css"
+    "file": "common.css"
 }
